@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8B7F3DD02CD7764A0091ECB7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7F3DCF2CD7764A0091ECB7 /* main.swift */; };
+		8B7F3DDE2CD78DA50091ECB7 /* DoublyLinkedList:정수명령처리8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7F3DDD2CD78DA50091ECB7 /* DoublyLinkedList:정수명령처리8.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		8B7F3DCC2CD7764A0091ECB7 /* Yejin */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Yejin; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B7F3DCF2CD7764A0091ECB7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		8B7F3DDD2CD78DA50091ECB7 /* DoublyLinkedList:정수명령처리8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DoublyLinkedList:정수명령처리8.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +59,26 @@
 		8B7F3DCE2CD7764A0091ECB7 /* Yejin */ = {
 			isa = PBXGroup;
 			children = (
+				8B7F3DDC2CD78D870091ECB7 /* BaekJoon */,
+				8B7F3DDB2CD78D4D0091ECB7 /* CodeTree */,
 				8B7F3DCF2CD7764A0091ECB7 /* main.swift */,
 			);
 			path = Yejin;
+			sourceTree = "<group>";
+		};
+		8B7F3DDB2CD78D4D0091ECB7 /* CodeTree */ = {
+			isa = PBXGroup;
+			children = (
+				8B7F3DDD2CD78DA50091ECB7 /* DoublyLinkedList:정수명령처리8.swift */,
+			);
+			path = CodeTree;
+			sourceTree = "<group>";
+		};
+		8B7F3DDC2CD78D870091ECB7 /* BaekJoon */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaekJoon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B7F3DDE2CD78DA50091ECB7 /* DoublyLinkedList:정수명령처리8.swift in Sources */,
 				8B7F3DD02CD7764A0091ECB7 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
