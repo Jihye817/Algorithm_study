@@ -36,4 +36,4 @@ solution(n, inputTestCase);
 
 ## 🌱 설명
 
-- 
+- 선택 정렬 구현
