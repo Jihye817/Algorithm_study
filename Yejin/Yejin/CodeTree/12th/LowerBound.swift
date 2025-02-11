@@ -4,8 +4,8 @@
 //
 //  Created by Yejin Hong on 2/10/25.
 //
-// 0  1  2  3  4  5  6  7  8  9  10
-//[1, 3, 4, 6, 6, 6, 6, 7, 9, 11, 15] -> 11
+
+// LowerBound : Target 이상의 값이 최초로 나오는 위치
 
 func lowerBound(array: [Int], target: Int) {
     var left = 0 // 처음

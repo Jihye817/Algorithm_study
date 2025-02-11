@@ -8,6 +8,10 @@
 
 ## User settings
 xcuserdata/
+.xcuserdata
+._.xcuserdata
+**/.xcuserdata
+**/._.xcuserdata
 
 ## DS_Store
 .DS_Store
