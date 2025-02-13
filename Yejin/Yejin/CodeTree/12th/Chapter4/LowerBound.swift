@@ -8,8 +8,8 @@
 // LowerBound : Target 이상의 값이 최초로 나오는 위치
 
 func lowerBound(array: [Int], target: Int) {
-    var left = 0 // 처음
-    var right = array.count - 1 // 끝
+    var left = 0
+    var right = array.count - 1
     var min_idx = array.count
     
     while left <= right {
