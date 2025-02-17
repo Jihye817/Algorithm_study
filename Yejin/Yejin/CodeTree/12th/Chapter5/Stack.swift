@@ -5,7 +5,7 @@
 //  Created by Yejin Hong on 2/11/25.
 //
 
-func Stack() {
+func stack() {
     let input = Int(readLine()!)!
     
     var items: [Int]  = []

@@ -43,6 +43,7 @@
 		8BC4E5012D5A1E000076600A /* 3rd */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = 3rd; sourceTree = "<group>"; };
 		8BC4E5022D5A1E040076600A /* 2nd */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = 2nd; sourceTree = "<group>"; };
 		8BC4E5032D5A1E080076600A /* 1st */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = 1st; sourceTree = "<group>"; };
+		8BF2EE202D620128001C7883 /* 12th */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = 12th; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +100,7 @@
 		8B7F3DFF2CEA04760091ECB7 /* BaekJoon */ = {
 			isa = PBXGroup;
 			children = (
+				8BF2EE202D620128001C7883 /* 12th */,
 				8B7F3E002CEA04B00091ECB7 /* B_2566.swift */,
 				8B7F3E022CEA04BA0091ECB7 /* B_1546.swift */,
 				8B7F3E042CEA05100091ECB7 /* B_23968.swift */,
@@ -130,6 +132,7 @@
 				8BC4E5012D5A1E000076600A /* 3rd */,
 				8BC4E5022D5A1E040076600A /* 2nd */,
 				8BC4E5032D5A1E080076600A /* 1st */,
+				8BF2EE202D620128001C7883 /* 12th */,
 			);
 			name = Yejin;
 			productName = Yejin;
