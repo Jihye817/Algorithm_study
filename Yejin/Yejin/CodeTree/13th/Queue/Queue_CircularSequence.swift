@@ -41,7 +41,7 @@ class Node_v2 {
     }
 }
 
-struct CircularDoublyLinkedList {
+struct DoublyLinkedList_v2 {
     private(set) var head: Node_v2?
     private(set) var tail: Node_v2?
     private(set) var size: Int = 0
