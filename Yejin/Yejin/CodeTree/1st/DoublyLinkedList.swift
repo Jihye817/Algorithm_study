@@ -25,8 +25,9 @@ struct DoublyLinkedList {
         
         if size == 0 {
             head = newNode
-            tail = head
+            tail = newNode
         } else {
+            newNode.next = head
             head?.prev = newNode
             head = newNode
         }
@@ -39,9 +40,10 @@ struct DoublyLinkedList {
         
         if size == 0 {
             head = newNode
-            tail = head
+            tail = newNode
         } else {
             tail?.next = newNode
+            newNode.prev = tail
             tail = newNode
         }
         
@@ -55,9 +57,9 @@ struct DoublyLinkedList {
         
         if size == 1 {
             head = nil
-            tail = nil
         } else {
             head = head?.next
+            head?.prev = nil
         }
         
         size -= 1
@@ -72,9 +74,9 @@ struct DoublyLinkedList {
         
         if size == 1 {
             head = nil
-            tail = nil
         } else {
             tail = tail?.prev
+            tail?.next = nil
         }
         size -= 1
         
