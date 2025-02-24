@@ -10,7 +10,7 @@ func queue_CircularSequence() {
     let n = input[0] // N 명의 사람들
     let k = input[1] // K 번째 사람을 제거
     
-    var circularList = CircularDoublyLinkedList()
+    var circularList = DoublyLinkedList_v2()
     
     for data in 1...n {
         circularList.push(data)
